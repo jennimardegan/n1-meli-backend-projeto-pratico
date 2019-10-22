@@ -1,0 +1,24 @@
+{
+  "name": "n1-meli-backend-projeto-pratico",
+  "version": "1.0.0",
+  "description": "projeto pratico",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennimardegan/n1-meli-backend-projeto-pratico.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jennimardegan/n1-meli-backend-projeto-pratico/issues"
+  },
+  "homepage": "https://github.com/jennimardegan/n1-meli-backend-projeto-pratico#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4"
+  }
+}
