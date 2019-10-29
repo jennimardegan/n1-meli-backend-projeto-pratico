@@ -8,7 +8,7 @@ exports.getTarefas = (req, res) => {
 exports.getById = (req, res) => {
     const id = req.params.id
     console.log(id)
-    if (id > 4 || id <= 0) {
+    if (id > 5 || id <= 0) {
         res.send('ID não localizado')
     }
     res.status(200).send(tarefas.find(tarefas => tarefas.id == id))
